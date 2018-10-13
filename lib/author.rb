@@ -11,7 +11,7 @@ class Author
   
   def add_post(message)
     binding.pry
-    @posts << Post.new(message)
+    message
   end 
   
 end 

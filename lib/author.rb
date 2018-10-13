@@ -14,7 +14,7 @@ class Author
   def add_post(message)
     @posts << message
     @@all << message
-    message.author = self
+    message.author = self.name
   end 
   
   def add_post_by_title(post_title)

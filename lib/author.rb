@@ -7,8 +7,9 @@ class Author
     @posts = []
   end
   
-  def add_post(post)
-    Post.new()
+  def add_post(posting)
+    Post.new(posting)
+    
   end 
   
 end 

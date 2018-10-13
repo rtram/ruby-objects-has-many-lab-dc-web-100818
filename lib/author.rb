@@ -10,8 +10,8 @@ class Author
   end
   
   def add_post(message)
-    binding.pry
-    message
+
+    @posts << message
   end 
   
 end 

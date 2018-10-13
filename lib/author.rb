@@ -1,3 +1,5 @@
+require 'pry'
+
 class Author 
   
   attr_reader :name, :posts 
@@ -8,6 +10,7 @@ class Author
   end
   
   def add_post(message)
+    binding.pry
     @posts << Post.new(message)
   end 
   

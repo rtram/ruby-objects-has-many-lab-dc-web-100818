@@ -10,8 +10,8 @@ class Author
   end
   
   def add_post(message)
-
     @posts << message
+    message.author = self
   end 
   
 end 

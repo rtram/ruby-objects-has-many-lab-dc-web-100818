@@ -1,7 +1,7 @@
 class Post 
   
   
-  def initialize(posts)
+  def initialize
     
   end
   

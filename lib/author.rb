@@ -9,7 +9,6 @@ class Author
   
   def add_post(message)
     @posts << Post.new(message)
-    post.author = self
   end 
   
 end 

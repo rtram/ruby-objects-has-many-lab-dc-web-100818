@@ -9,7 +9,6 @@ class Post
   
   def initialize(post)
     @title = post
-    @author = nil
     @@all << self
   end
   
@@ -18,7 +17,7 @@ class Post
   end 
   
   def author_name
-    # binding.pry
+    binding.pry
     self.author.name
   end 
   

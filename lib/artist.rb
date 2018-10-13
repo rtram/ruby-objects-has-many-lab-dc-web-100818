@@ -27,5 +27,4 @@ class Artist
     @@all.length
   end 
   
-  
 end 

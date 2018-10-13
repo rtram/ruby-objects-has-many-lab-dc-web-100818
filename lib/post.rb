@@ -9,6 +9,7 @@ class Post
   
   def initialize(post)
     @title = post
+    @author = nil
     @@all << self
   end
   
@@ -17,8 +18,11 @@ class Post
   end 
   
   def author_name
-    if self.auth
-    self.author.name
+    if self.author = nil 
+      nil 
+    else 
+      self.author.name
+    end 
   end 
   
 end 

@@ -6,7 +6,7 @@ class Author
   
   @@all = []
   
-  def initialize(name = nil)
+  def initialize(name)
     @name = name
     @posts = []
   end

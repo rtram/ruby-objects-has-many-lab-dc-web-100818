@@ -4,7 +4,7 @@ class Post
   
   def initialize(post, author)
     @author = author
-    @post
+    @post = post
   end
   
 end 
